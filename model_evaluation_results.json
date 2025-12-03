@@ -1,0 +1,1226 @@
+{
+  "model_info": {
+    "model_name": "FraudClassifier",
+    "evaluation_date": "2025-11-17T22:10:42.264969",
+    "device_used": "cpu"
+  },
+  "performance_metrics": {
+    "accuracy": 0.9818181818181818,
+    "total_samples": 55,
+    "correct_predictions": 54,
+    "false_positives": 1,
+    "false_negatives": 0
+  },
+  "detailed_results": [
+    {
+      "message_id": "eval_0_0",
+      "input": {
+        "text_identifier": "batch_0_sample_0",
+        "source_risk": 0.8999999761581421,
+        "keyword_hits": 1.0
+      },
+      "ground_truth": 0,
+      "model_output": {
+        "prediction": 0,
+        "confidence": 0.0030425814911723137,
+        "probabilities": {
+          "normal_prob": 0.9969574213027954,
+          "fraud_prob": 0.0030425814911723137
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:40.790173"
+    },
+    {
+      "message_id": "eval_0_1",
+      "input": {
+        "text_identifier": "batch_0_sample_1",
+        "source_risk": 0.5,
+        "keyword_hits": 0.0
+      },
+      "ground_truth": 0,
+      "model_output": {
+        "prediction": 0,
+        "confidence": 0.007668675389140844,
+        "probabilities": {
+          "normal_prob": 0.9923312664031982,
+          "fraud_prob": 0.007668675389140844
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:40.790417"
+    },
+    {
+      "message_id": "eval_0_2",
+      "input": {
+        "text_identifier": "batch_0_sample_2",
+        "source_risk": 0.5,
+        "keyword_hits": 1.0
+      },
+      "ground_truth": 1,
+      "model_output": {
+        "prediction": 1,
+        "confidence": 0.9973220229148865,
+        "probabilities": {
+          "normal_prob": 0.0026779810432344675,
+          "fraud_prob": 0.9973220229148865
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:40.790442"
+    },
+    {
+      "message_id": "eval_0_3",
+      "input": {
+        "text_identifier": "batch_0_sample_3",
+        "source_risk": 0.8999999761581421,
+        "keyword_hits": 4.0
+      },
+      "ground_truth": 1,
+      "model_output": {
+        "prediction": 1,
+        "confidence": 0.997463583946228,
+        "probabilities": {
+          "normal_prob": 0.002536454936489463,
+          "fraud_prob": 0.997463583946228
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:40.790465"
+    },
+    {
+      "message_id": "eval_0_4",
+      "input": {
+        "text_identifier": "batch_0_sample_4",
+        "source_risk": 0.8999999761581421,
+        "keyword_hits": 0.0
+      },
+      "ground_truth": 1,
+      "model_output": {
+        "prediction": 1,
+        "confidence": 0.996813952922821,
+        "probabilities": {
+          "normal_prob": 0.0031860480085015297,
+          "fraud_prob": 0.996813952922821
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:40.790487"
+    },
+    {
+      "message_id": "eval_0_5",
+      "input": {
+        "text_identifier": "batch_0_sample_5",
+        "source_risk": 0.5,
+        "keyword_hits": 0.0
+      },
+      "ground_truth": 0,
+      "model_output": {
+        "prediction": 0,
+        "confidence": 0.002749624429270625,
+        "probabilities": {
+          "normal_prob": 0.9972503781318665,
+          "fraud_prob": 0.002749624429270625
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:40.790509"
+    },
+    {
+      "message_id": "eval_0_6",
+      "input": {
+        "text_identifier": "batch_0_sample_6",
+        "source_risk": 0.8999999761581421,
+        "keyword_hits": 4.0
+      },
+      "ground_truth": 1,
+      "model_output": {
+        "prediction": 1,
+        "confidence": 0.9977304339408875,
+        "probabilities": {
+          "normal_prob": 0.0022695648949593306,
+          "fraud_prob": 0.9977304339408875
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:40.790531"
+    },
+    {
+      "message_id": "eval_0_7",
+      "input": {
+        "text_identifier": "batch_0_sample_7",
+        "source_risk": 0.8999999761581421,
+        "keyword_hits": 2.0
+      },
+      "ground_truth": 0,
+      "model_output": {
+        "prediction": 0,
+        "confidence": 0.004579153843224049,
+        "probabilities": {
+          "normal_prob": 0.9954208731651306,
+          "fraud_prob": 0.004579153843224049
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:40.790552"
+    },
+    {
+      "message_id": "eval_0_8",
+      "input": {
+        "text_identifier": "batch_0_sample_8",
+        "source_risk": 0.0,
+        "keyword_hits": 0.0
+      },
+      "ground_truth": 0,
+      "model_output": {
+        "prediction": 0,
+        "confidence": 0.004019472282379866,
+        "probabilities": {
+          "normal_prob": 0.9959805011749268,
+          "fraud_prob": 0.004019472282379866
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:40.790574"
+    },
+    {
+      "message_id": "eval_0_9",
+      "input": {
+        "text_identifier": "batch_0_sample_9",
+        "source_risk": 0.8999999761581421,
+        "keyword_hits": 3.0
+      },
+      "ground_truth": 1,
+      "model_output": {
+        "prediction": 1,
+        "confidence": 0.9974892139434814,
+        "probabilities": {
+          "normal_prob": 0.002510752761736512,
+          "fraud_prob": 0.9974892139434814
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:40.790596"
+    },
+    {
+      "message_id": "eval_0_10",
+      "input": {
+        "text_identifier": "batch_0_sample_10",
+        "source_risk": 0.5,
+        "keyword_hits": 1.0
+      },
+      "ground_truth": 1,
+      "model_output": {
+        "prediction": 1,
+        "confidence": 0.9974954128265381,
+        "probabilities": {
+          "normal_prob": 0.002504568314179778,
+          "fraud_prob": 0.9974954128265381
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:40.790617"
+    },
+    {
+      "message_id": "eval_0_11",
+      "input": {
+        "text_identifier": "batch_0_sample_11",
+        "source_risk": 0.0,
+        "keyword_hits": 0.0
+      },
+      "ground_truth": 0,
+      "model_output": {
+        "prediction": 0,
+        "confidence": 0.004365520551800728,
+        "probabilities": {
+          "normal_prob": 0.9956344962120056,
+          "fraud_prob": 0.004365520551800728
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:40.790639"
+    },
+    {
+      "message_id": "eval_0_12",
+      "input": {
+        "text_identifier": "batch_0_sample_12",
+        "source_risk": 0.800000011920929,
+        "keyword_hits": 2.0
+      },
+      "ground_truth": 1,
+      "model_output": {
+        "prediction": 1,
+        "confidence": 0.9977904558181763,
+        "probabilities": {
+          "normal_prob": 0.0022095299791544676,
+          "fraud_prob": 0.9977904558181763
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:40.790662"
+    },
+    {
+      "message_id": "eval_0_13",
+      "input": {
+        "text_identifier": "batch_0_sample_13",
+        "source_risk": 0.5,
+        "keyword_hits": 1.0
+      },
+      "ground_truth": 1,
+      "model_output": {
+        "prediction": 1,
+        "confidence": 0.9935715198516846,
+        "probabilities": {
+          "normal_prob": 0.0064284708350896835,
+          "fraud_prob": 0.9935715198516846
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:40.790684"
+    },
+    {
+      "message_id": "eval_0_14",
+      "input": {
+        "text_identifier": "batch_0_sample_14",
+        "source_risk": 0.5,
+        "keyword_hits": 0.0
+      },
+      "ground_truth": 1,
+      "model_output": {
+        "prediction": 1,
+        "confidence": 0.5681908130645752,
+        "probabilities": {
+          "normal_prob": 0.43180912733078003,
+          "fraud_prob": 0.5681908130645752
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:40.790706"
+    },
+    {
+      "message_id": "eval_0_15",
+      "input": {
+        "text_identifier": "batch_0_sample_15",
+        "source_risk": 0.0,
+        "keyword_hits": 0.0
+      },
+      "ground_truth": 0,
+      "model_output": {
+        "prediction": 0,
+        "confidence": 0.004262998700141907,
+        "probabilities": {
+          "normal_prob": 0.9957369565963745,
+          "fraud_prob": 0.004262998700141907
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:40.790727"
+    },
+    {
+      "message_id": "eval_1_0",
+      "input": {
+        "text_identifier": "batch_1_sample_0",
+        "source_risk": 0.800000011920929,
+        "keyword_hits": 1.0
+      },
+      "ground_truth": 1,
+      "model_output": {
+        "prediction": 1,
+        "confidence": 0.9980630278587341,
+        "probabilities": {
+          "normal_prob": 0.0019369481597095728,
+          "fraud_prob": 0.9980630278587341
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.382051"
+    },
+    {
+      "message_id": "eval_1_1",
+      "input": {
+        "text_identifier": "batch_1_sample_1",
+        "source_risk": 0.5,
+        "keyword_hits": 0.0
+      },
+      "ground_truth": 0,
+      "model_output": {
+        "prediction": 0,
+        "confidence": 0.004559343680739403,
+        "probabilities": {
+          "normal_prob": 0.9954406023025513,
+          "fraud_prob": 0.004559343680739403
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.382079"
+    },
+    {
+      "message_id": "eval_1_2",
+      "input": {
+        "text_identifier": "batch_1_sample_2",
+        "source_risk": 0.5,
+        "keyword_hits": 2.0
+      },
+      "ground_truth": 1,
+      "model_output": {
+        "prediction": 1,
+        "confidence": 0.9957531690597534,
+        "probabilities": {
+          "normal_prob": 0.0042468588799238205,
+          "fraud_prob": 0.9957531690597534
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.382103"
+    },
+    {
+      "message_id": "eval_1_3",
+      "input": {
+        "text_identifier": "batch_1_sample_3",
+        "source_risk": 0.5,
+        "keyword_hits": 0.0
+      },
+      "ground_truth": 1,
+      "model_output": {
+        "prediction": 1,
+        "confidence": 0.9921521544456482,
+        "probabilities": {
+          "normal_prob": 0.007847794331610203,
+          "fraud_prob": 0.9921521544456482
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.382126"
+    },
+    {
+      "message_id": "eval_1_4",
+      "input": {
+        "text_identifier": "batch_1_sample_4",
+        "source_risk": 0.800000011920929,
+        "keyword_hits": 1.0
+      },
+      "ground_truth": 1,
+      "model_output": {
+        "prediction": 1,
+        "confidence": 0.9978951215744019,
+        "probabilities": {
+          "normal_prob": 0.002104872837662697,
+          "fraud_prob": 0.9978951215744019
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.382149"
+    },
+    {
+      "message_id": "eval_1_5",
+      "input": {
+        "text_identifier": "batch_1_sample_5",
+        "source_risk": 0.5,
+        "keyword_hits": 3.0
+      },
+      "ground_truth": 1,
+      "model_output": {
+        "prediction": 1,
+        "confidence": 0.9976614713668823,
+        "probabilities": {
+          "normal_prob": 0.0023384997621178627,
+          "fraud_prob": 0.9976614713668823
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.382171"
+    },
+    {
+      "message_id": "eval_1_6",
+      "input": {
+        "text_identifier": "batch_1_sample_6",
+        "source_risk": 0.8999999761581421,
+        "keyword_hits": 1.0
+      },
+      "ground_truth": 0,
+      "model_output": {
+        "prediction": 0,
+        "confidence": 0.004688037093728781,
+        "probabilities": {
+          "normal_prob": 0.995311975479126,
+          "fraud_prob": 0.004688037093728781
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.382193"
+    },
+    {
+      "message_id": "eval_1_7",
+      "input": {
+        "text_identifier": "batch_1_sample_7",
+        "source_risk": 0.8999999761581421,
+        "keyword_hits": 5.0
+      },
+      "ground_truth": 0,
+      "model_output": {
+        "prediction": 0,
+        "confidence": 0.02739204466342926,
+        "probabilities": {
+          "normal_prob": 0.9726079106330872,
+          "fraud_prob": 0.02739204466342926
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.382216"
+    },
+    {
+      "message_id": "eval_1_8",
+      "input": {
+        "text_identifier": "batch_1_sample_8",
+        "source_risk": 0.0,
+        "keyword_hits": 0.0
+      },
+      "ground_truth": 0,
+      "model_output": {
+        "prediction": 0,
+        "confidence": 0.003926850389689207,
+        "probabilities": {
+          "normal_prob": 0.9960731267929077,
+          "fraud_prob": 0.003926850389689207
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.382241"
+    },
+    {
+      "message_id": "eval_1_9",
+      "input": {
+        "text_identifier": "batch_1_sample_9",
+        "source_risk": 0.8999999761581421,
+        "keyword_hits": 2.0
+      },
+      "ground_truth": 0,
+      "model_output": {
+        "prediction": 0,
+        "confidence": 0.004426761996001005,
+        "probabilities": {
+          "normal_prob": 0.9955732822418213,
+          "fraud_prob": 0.004426761996001005
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.382264"
+    },
+    {
+      "message_id": "eval_1_10",
+      "input": {
+        "text_identifier": "batch_1_sample_10",
+        "source_risk": 0.8999999761581421,
+        "keyword_hits": 0.0
+      },
+      "ground_truth": 0,
+      "model_output": {
+        "prediction": 0,
+        "confidence": 0.005565223284065723,
+        "probabilities": {
+          "normal_prob": 0.9944347739219666,
+          "fraud_prob": 0.005565223284065723
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.382287"
+    },
+    {
+      "message_id": "eval_1_11",
+      "input": {
+        "text_identifier": "batch_1_sample_11",
+        "source_risk": 0.800000011920929,
+        "keyword_hits": 0.0
+      },
+      "ground_truth": 1,
+      "model_output": {
+        "prediction": 1,
+        "confidence": 0.9968597888946533,
+        "probabilities": {
+          "normal_prob": 0.0031402690801769495,
+          "fraud_prob": 0.9968597888946533
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.382309"
+    },
+    {
+      "message_id": "eval_1_12",
+      "input": {
+        "text_identifier": "batch_1_sample_12",
+        "source_risk": 0.5,
+        "keyword_hits": 0.0
+      },
+      "ground_truth": 1,
+      "model_output": {
+        "prediction": 1,
+        "confidence": 0.9961667656898499,
+        "probabilities": {
+          "normal_prob": 0.003833206370472908,
+          "fraud_prob": 0.9961667656898499
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.382331"
+    },
+    {
+      "message_id": "eval_1_13",
+      "input": {
+        "text_identifier": "batch_1_sample_13",
+        "source_risk": 0.8999999761581421,
+        "keyword_hits": 0.0
+      },
+      "ground_truth": 0,
+      "model_output": {
+        "prediction": 0,
+        "confidence": 0.0039284732192754745,
+        "probabilities": {
+          "normal_prob": 0.9960715770721436,
+          "fraud_prob": 0.0039284732192754745
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.382353"
+    },
+    {
+      "message_id": "eval_1_14",
+      "input": {
+        "text_identifier": "batch_1_sample_14",
+        "source_risk": 0.5,
+        "keyword_hits": 0.0
+      },
+      "ground_truth": 1,
+      "model_output": {
+        "prediction": 1,
+        "confidence": 0.9951022863388062,
+        "probabilities": {
+          "normal_prob": 0.004897660575807095,
+          "fraud_prob": 0.9951022863388062
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.382381"
+    },
+    {
+      "message_id": "eval_1_15",
+      "input": {
+        "text_identifier": "batch_1_sample_15",
+        "source_risk": 0.5,
+        "keyword_hits": 1.0
+      },
+      "ground_truth": 1,
+      "model_output": {
+        "prediction": 1,
+        "confidence": 0.9958568215370178,
+        "probabilities": {
+          "normal_prob": 0.004143192898482084,
+          "fraud_prob": 0.9958568215370178
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.382403"
+    },
+    {
+      "message_id": "eval_2_0",
+      "input": {
+        "text_identifier": "batch_2_sample_0",
+        "source_risk": 0.5,
+        "keyword_hits": 2.0
+      },
+      "ground_truth": 0,
+      "model_output": {
+        "prediction": 0,
+        "confidence": 0.002823681104928255,
+        "probabilities": {
+          "normal_prob": 0.9971762895584106,
+          "fraud_prob": 0.002823681104928255
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.980536"
+    },
+    {
+      "message_id": "eval_2_1",
+      "input": {
+        "text_identifier": "batch_2_sample_1",
+        "source_risk": 0.800000011920929,
+        "keyword_hits": 1.0
+      },
+      "ground_truth": 1,
+      "model_output": {
+        "prediction": 1,
+        "confidence": 0.9980328679084778,
+        "probabilities": {
+          "normal_prob": 0.001967155607417226,
+          "fraud_prob": 0.9980328679084778
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.980564"
+    },
+    {
+      "message_id": "eval_2_2",
+      "input": {
+        "text_identifier": "batch_2_sample_2",
+        "source_risk": 0.8999999761581421,
+        "keyword_hits": 2.0
+      },
+      "ground_truth": 1,
+      "model_output": {
+        "prediction": 1,
+        "confidence": 0.9978347420692444,
+        "probabilities": {
+          "normal_prob": 0.0021652819123119116,
+          "fraud_prob": 0.9978347420692444
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.980587"
+    },
+    {
+      "message_id": "eval_2_3",
+      "input": {
+        "text_identifier": "batch_2_sample_3",
+        "source_risk": 0.8999999761581421,
+        "keyword_hits": 5.0
+      },
+      "ground_truth": 0,
+      "model_output": {
+        "prediction": 0,
+        "confidence": 0.004308203235268593,
+        "probabilities": {
+          "normal_prob": 0.9956918358802795,
+          "fraud_prob": 0.004308203235268593
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.980610"
+    },
+    {
+      "message_id": "eval_2_4",
+      "input": {
+        "text_identifier": "batch_2_sample_4",
+        "source_risk": 0.0,
+        "keyword_hits": 0.0
+      },
+      "ground_truth": 0,
+      "model_output": {
+        "prediction": 0,
+        "confidence": 0.004164103884249926,
+        "probabilities": {
+          "normal_prob": 0.9958359003067017,
+          "fraud_prob": 0.004164103884249926
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.980633"
+    },
+    {
+      "message_id": "eval_2_5",
+      "input": {
+        "text_identifier": "batch_2_sample_5",
+        "source_risk": 0.5,
+        "keyword_hits": 2.0
+      },
+      "ground_truth": 1,
+      "model_output": {
+        "prediction": 1,
+        "confidence": 0.9977691173553467,
+        "probabilities": {
+          "normal_prob": 0.0022308537736535072,
+          "fraud_prob": 0.9977691173553467
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.980655"
+    },
+    {
+      "message_id": "eval_2_6",
+      "input": {
+        "text_identifier": "batch_2_sample_6",
+        "source_risk": 0.5,
+        "keyword_hits": 0.0
+      },
+      "ground_truth": 0,
+      "model_output": {
+        "prediction": 0,
+        "confidence": 0.005833129398524761,
+        "probabilities": {
+          "normal_prob": 0.9941668510437012,
+          "fraud_prob": 0.005833129398524761
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.980677"
+    },
+    {
+      "message_id": "eval_2_7",
+      "input": {
+        "text_identifier": "batch_2_sample_7",
+        "source_risk": 0.5,
+        "keyword_hits": 0.0
+      },
+      "ground_truth": 0,
+      "model_output": {
+        "prediction": 0,
+        "confidence": 0.015262389555573463,
+        "probabilities": {
+          "normal_prob": 0.9847375750541687,
+          "fraud_prob": 0.015262389555573463
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.980699"
+    },
+    {
+      "message_id": "eval_2_8",
+      "input": {
+        "text_identifier": "batch_2_sample_8",
+        "source_risk": 0.8999999761581421,
+        "keyword_hits": 0.0
+      },
+      "ground_truth": 0,
+      "model_output": {
+        "prediction": 0,
+        "confidence": 0.003313058754429221,
+        "probabilities": {
+          "normal_prob": 0.9966869950294495,
+          "fraud_prob": 0.003313058754429221
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.980722"
+    },
+    {
+      "message_id": "eval_2_9",
+      "input": {
+        "text_identifier": "batch_2_sample_9",
+        "source_risk": 0.5,
+        "keyword_hits": 1.0
+      },
+      "ground_truth": 0,
+      "model_output": {
+        "prediction": 0,
+        "confidence": 0.00282472581602633,
+        "probabilities": {
+          "normal_prob": 0.9971752166748047,
+          "fraud_prob": 0.00282472581602633
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.980745"
+    },
+    {
+      "message_id": "eval_2_10",
+      "input": {
+        "text_identifier": "batch_2_sample_10",
+        "source_risk": 0.8999999761581421,
+        "keyword_hits": 0.0
+      },
+      "ground_truth": 1,
+      "model_output": {
+        "prediction": 1,
+        "confidence": 0.9977667331695557,
+        "probabilities": {
+          "normal_prob": 0.00223323586396873,
+          "fraud_prob": 0.9977667331695557
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.980767"
+    },
+    {
+      "message_id": "eval_2_11",
+      "input": {
+        "text_identifier": "batch_2_sample_11",
+        "source_risk": 0.8999999761581421,
+        "keyword_hits": 1.0
+      },
+      "ground_truth": 0,
+      "model_output": {
+        "prediction": 0,
+        "confidence": 0.003276485949754715,
+        "probabilities": {
+          "normal_prob": 0.996723473072052,
+          "fraud_prob": 0.003276485949754715
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.980789"
+    },
+    {
+      "message_id": "eval_2_12",
+      "input": {
+        "text_identifier": "batch_2_sample_12",
+        "source_risk": 0.5,
+        "keyword_hits": 3.0
+      },
+      "ground_truth": 1,
+      "model_output": {
+        "prediction": 1,
+        "confidence": 0.9967516660690308,
+        "probabilities": {
+          "normal_prob": 0.00324834487400949,
+          "fraud_prob": 0.9967516660690308
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.980812"
+    },
+    {
+      "message_id": "eval_2_13",
+      "input": {
+        "text_identifier": "batch_2_sample_13",
+        "source_risk": 0.5,
+        "keyword_hits": 0.0
+      },
+      "ground_truth": 0,
+      "model_output": {
+        "prediction": 0,
+        "confidence": 0.4687967300415039,
+        "probabilities": {
+          "normal_prob": 0.5312032103538513,
+          "fraud_prob": 0.4687967300415039
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.980834"
+    },
+    {
+      "message_id": "eval_2_14",
+      "input": {
+        "text_identifier": "batch_2_sample_14",
+        "source_risk": 0.5,
+        "keyword_hits": 3.0
+      },
+      "ground_truth": 1,
+      "model_output": {
+        "prediction": 1,
+        "confidence": 0.9976542592048645,
+        "probabilities": {
+          "normal_prob": 0.0023457848001271486,
+          "fraud_prob": 0.9976542592048645
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.980861"
+    },
+    {
+      "message_id": "eval_2_15",
+      "input": {
+        "text_identifier": "batch_2_sample_15",
+        "source_risk": 0.5,
+        "keyword_hits": 3.0
+      },
+      "ground_truth": 1,
+      "model_output": {
+        "prediction": 1,
+        "confidence": 0.9975783228874207,
+        "probabilities": {
+          "normal_prob": 0.0024216589517891407,
+          "fraud_prob": 0.9975783228874207
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:41.980883"
+    },
+    {
+      "message_id": "eval_3_0",
+      "input": {
+        "text_identifier": "batch_3_sample_0",
+        "source_risk": 0.5,
+        "keyword_hits": 0.0
+      },
+      "ground_truth": 1,
+      "model_output": {
+        "prediction": 1,
+        "confidence": 0.9920118451118469,
+        "probabilities": {
+          "normal_prob": 0.007988199591636658,
+          "fraud_prob": 0.9920118451118469
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:42.252702"
+    },
+    {
+      "message_id": "eval_3_1",
+      "input": {
+        "text_identifier": "batch_3_sample_1",
+        "source_risk": 0.5,
+        "keyword_hits": 1.0
+      },
+      "ground_truth": 0,
+      "model_output": {
+        "prediction": 0,
+        "confidence": 0.004597966559231281,
+        "probabilities": {
+          "normal_prob": 0.9954019784927368,
+          "fraud_prob": 0.004597966559231281
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:42.252730"
+    },
+    {
+      "message_id": "eval_3_2",
+      "input": {
+        "text_identifier": "batch_3_sample_2",
+        "source_risk": 0.8999999761581421,
+        "keyword_hits": 0.0
+      },
+      "ground_truth": 0,
+      "model_output": {
+        "prediction": 0,
+        "confidence": 0.0035508940927684307,
+        "probabilities": {
+          "normal_prob": 0.9964491128921509,
+          "fraud_prob": 0.0035508940927684307
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:42.252754"
+    },
+    {
+      "message_id": "eval_3_3",
+      "input": {
+        "text_identifier": "batch_3_sample_3",
+        "source_risk": 0.5,
+        "keyword_hits": 3.0
+      },
+      "ground_truth": 0,
+      "model_output": {
+        "prediction": 1,
+        "confidence": 0.9975783228874207,
+        "probabilities": {
+          "normal_prob": 0.0024216589517891407,
+          "fraud_prob": 0.9975783228874207
+        }
+      },
+      "evaluation": {
+        "is_correct": false,
+        "error_type": "False Positive"
+      },
+      "timestamp": "2025-11-17T22:10:42.252776"
+    },
+    {
+      "message_id": "eval_3_4",
+      "input": {
+        "text_identifier": "batch_3_sample_4",
+        "source_risk": 0.800000011920929,
+        "keyword_hits": 1.0
+      },
+      "ground_truth": 1,
+      "model_output": {
+        "prediction": 1,
+        "confidence": 0.9973548650741577,
+        "probabilities": {
+          "normal_prob": 0.0026451931335031986,
+          "fraud_prob": 0.9973548650741577
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:42.252800"
+    },
+    {
+      "message_id": "eval_3_5",
+      "input": {
+        "text_identifier": "batch_3_sample_5",
+        "source_risk": 0.8999999761581421,
+        "keyword_hits": 4.0
+      },
+      "ground_truth": 1,
+      "model_output": {
+        "prediction": 1,
+        "confidence": 0.9979873895645142,
+        "probabilities": {
+          "normal_prob": 0.0020125482697039843,
+          "fraud_prob": 0.9979873895645142
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:42.252823"
+    },
+    {
+      "message_id": "eval_3_6",
+      "input": {
+        "text_identifier": "batch_3_sample_6",
+        "source_risk": 0.5,
+        "keyword_hits": 0.0
+      },
+      "ground_truth": 1,
+      "model_output": {
+        "prediction": 1,
+        "confidence": 0.9956889748573303,
+        "probabilities": {
+          "normal_prob": 0.004311010241508484,
+          "fraud_prob": 0.9956889748573303
+        }
+      },
+      "evaluation": {
+        "is_correct": true,
+        "error_type": null
+      },
+      "timestamp": "2025-11-17T22:10:42.252846"
+    }
+  ]
+}
