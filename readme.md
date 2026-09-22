@@ -1,26 +1,32 @@
-BERT-based Fraud Detection with LLM-powered Explanation
+# 🛡️ AI Anti-Fraud Chatbot
+
+An AI-powered chatbot for detecting and explaining potential fraud messages.
+
+The project combines a BERT-based text classification model, rule-based risk analysis, and an Ollama-powered LLM to provide users with fraud detection results and human-readable explanations.
+
+---
 
 ## Overview
 
+Online scams often contain suspicious wording, requests, or patterns that may be difficult for users to recognize.
+
+This project provides a conversational interface that analyzes user input and produces a fraud risk assessment.
+
+The system combines:
+
+- BERT-based text classification
+- Rule-based fraud keyword detection
+- Risk score analysis
+- Ollama LLM
+- Conversational interaction
+- Chinese and English explanations
+
+The goal is to demonstrate how traditional machine learning, rule-based analysis, and LLMs can be combined into a practical AI application.
+
+---
+
 ## System Architecture
 
-## Machine Learning Pipeline
-
-## Key Features
-
-## Technology Stack
-
-## Project Structure
-
-## How to Run
-
-## Example
-
-## Development
-
-## License
-
-# System Architecture Diagram
 
 ```mermaid
 flowchart TD
